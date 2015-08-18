@@ -14,6 +14,8 @@
 		C7E49A871B0C8872002E4D5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E49A861B0C8872002E4D5C /* Images.xcassets */; };
 		C7E49A8A1B0C8872002E4D5C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7E49A881B0C8872002E4D5C /* LaunchScreen.xib */; };
 		C7E49A961B0C8872002E4D5C /* multipleSBsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E49A951B0C8872002E4D5C /* multipleSBsTests.m */; };
+		C7E49AA01B0C8C2D002E4D5C /* sb1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E49A9F1B0C8C2D002E4D5C /* sb1.storyboard */; };
+		C7E49AA21B0C8C54002E4D5C /* sb2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E49AA11B0C8C54002E4D5C /* sb2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		C7E49A8F1B0C8872002E4D5C /* multipleSBsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multipleSBsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E49A941B0C8872002E4D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7E49A951B0C8872002E4D5C /* multipleSBsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = multipleSBsTests.m; sourceTree = "<group>"; };
+		C7E49A9F1B0C8C2D002E4D5C /* sb1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = sb1.storyboard; sourceTree = "<group>"; };
+		C7E49AA11B0C8C54002E4D5C /* sb2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = sb2.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 				C7E49A861B0C8872002E4D5C /* Images.xcassets */,
 				C7E49A881B0C8872002E4D5C /* LaunchScreen.xib */,
 				C7E49A791B0C8871002E4D5C /* Supporting Files */,
+				C7E49A9F1B0C8C2D002E4D5C /* sb1.storyboard */,
+				C7E49AA11B0C8C54002E4D5C /* sb2.storyboard */,
 			);
 			path = multipleSBs;
 			sourceTree = "<group>";
@@ -199,9 +205,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7E49AA21B0C8C54002E4D5C /* sb2.storyboard in Resources */,
 				C7E49A851B0C8872002E4D5C /* Main.storyboard in Resources */,
 				C7E49A8A1B0C8872002E4D5C /* LaunchScreen.xib in Resources */,
 				C7E49A871B0C8872002E4D5C /* Images.xcassets in Resources */,
+				C7E49AA01B0C8C2D002E4D5C /* sb1.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +422,7 @@
 				C7E49A9B1B0C8872002E4D5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7E49A9C1B0C8872002E4D5C /* Build configuration list for PBXNativeTarget "multipleSBsTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +431,7 @@
 				C7E49A9E1B0C8872002E4D5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
